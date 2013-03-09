@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface again : NSObject
-
+{
+     
+}
 @end
