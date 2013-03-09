@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B449D28416EADF8800E0130A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B449D28316EADF8800E0130A /* UIKit.framework */; };
+		B449D28616EADF8800E0130A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B449D28516EADF8800E0130A /* Foundation.framework */; };
+		B449D28816EADF8800E0130A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B449D28716EADF8800E0130A /* CoreGraphics.framework */; };
+		B449D28E16EADF8800E0130A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B449D28C16EADF8800E0130A /* InfoPlist.strings */; };
+		B449D29016EADF8800E0130A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B449D28F16EADF8800E0130A /* main.m */; };
+		B449D29416EADF8800E0130A /* BTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B449D29316EADF8800E0130A /* BTAppDelegate.m */; };
+		B449D29716EADF8800E0130A /* BTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B449D29616EADF8800E0130A /* BTViewController.m */; };
+		B449D29A16EADF8800E0130A /* BTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B449D29816EADF8800E0130A /* BTViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B449D27F16EADF8800E0130A /* WithGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WithGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B449D28316EADF8800E0130A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B449D28516EADF8800E0130A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B449D28716EADF8800E0130A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B449D28B16EADF8800E0130A /* WithGit-Info.plist */ = {isa = PBXFileReference; path = "WithGit-Info.plist"; sourceTree = "<group>"; };
+		B449D28D16EADF8800E0130A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B449D28F16EADF8800E0130A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B449D29116EADF8800E0130A /* WithGit-Prefix.pch */ = {isa = PBXFileReference; path = "WithGit-Prefix.pch"; sourceTree = "<group>"; };
+		B449D29216EADF8800E0130A /* BTAppDelegate.h */ = {isa = PBXFileReference; path = BTAppDelegate.h; sourceTree = "<group>"; };
+		B449D29316EADF8800E0130A /* BTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAppDelegate.m; sourceTree = "<group>"; };
+		B449D29516EADF8800E0130A /* BTViewController.h */ = {isa = PBXFileReference; path = BTViewController.h; sourceTree = "<group>"; };
+		B449D29616EADF8800E0130A /* BTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTViewController.m; sourceTree = "<group>"; };
+		B449D29916EADF8800E0130A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BTViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B449D27C16EADF8800E0130A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B449D28416EADF8800E0130A /* UIKit.framework in Frameworks */,
+				B449D28616EADF8800E0130A /* Foundation.framework in Frameworks */,
+				B449D28816EADF8800E0130A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B449D27416EADF8800E0130A = {
+			isa = PBXGroup;
+			children = (
+				B449D28916EADF8800E0130A /* WithGit */,
+				B449D28216EADF8800E0130A /* Frameworks */,
+				B449D28016EADF8800E0130A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B449D28016EADF8800E0130A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B449D27F16EADF8800E0130A /* WithGit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B449D28216EADF8800E0130A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B449D28316EADF8800E0130A /* UIKit.framework */,
+				B449D28516EADF8800E0130A /* Foundation.framework */,
+				B449D28716EADF8800E0130A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B449D28916EADF8800E0130A /* WithGit */ = {
+			isa = PBXGroup;
+			children = (
+				B449D29216EADF8800E0130A /* BTAppDelegate.h */,
+				B449D29316EADF8800E0130A /* BTAppDelegate.m */,
+				B449D29516EADF8800E0130A /* BTViewController.h */,
+				B449D29616EADF8800E0130A /* BTViewController.m */,
+				B449D29816EADF8800E0130A /* BTViewController.xib */,
+				B449D28A16EADF8800E0130A /* Supporting Files */,
+			);
+			path = WithGit;
+			sourceTree = "<group>";
+		};
+		B449D28A16EADF8800E0130A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B449D28B16EADF8800E0130A /* WithGit-Info.plist */,
+				B449D28C16EADF8800E0130A /* InfoPlist.strings */,
+				B449D28F16EADF8800E0130A /* main.m */,
+				B449D29116EADF8800E0130A /* WithGit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B449D27E16EADF8800E0130A /* WithGit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B449D29D16EADF8800E0130A /* Build configuration list for PBXNativeTarget "WithGit" */;
+			buildPhases = (
+				B449D27B16EADF8800E0130A /* Sources */,
+				B449D27C16EADF8800E0130A /* Frameworks */,
+				B449D27D16EADF8800E0130A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WithGit;
+			productName = WithGit;
+			productReference = B449D27F16EADF8800E0130A /* WithGit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B449D27616EADF8800E0130A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B449D27916EADF8800E0130A /* Build configuration list for PBXProject "WithGit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B449D27416EADF8800E0130A;
+			productRefGroup = B449D28016EADF8800E0130A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B449D27E16EADF8800E0130A /* WithGit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B449D27D16EADF8800E0130A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B449D28E16EADF8800E0130A /* InfoPlist.strings in Resources */,
+				B449D29A16EADF8800E0130A /* BTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B449D27B16EADF8800E0130A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B449D29016EADF8800E0130A /* main.m in Sources */,
+				B449D29416EADF8800E0130A /* BTAppDelegate.m in Sources */,
+				B449D29716EADF8800E0130A /* BTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B449D28C16EADF8800E0130A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B449D28D16EADF8800E0130A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B449D29816EADF8800E0130A /* BTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B449D29916EADF8800E0130A /* en */,
+			);
+			name = BTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B449D29B16EADF8800E0130A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B449D29C16EADF8800E0130A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B449D29E16EADF8800E0130A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WithGit/WithGit-Prefix.pch";
+				INFOPLIST_FILE = "WithGit/WithGit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B449D29F16EADF8800E0130A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WithGit/WithGit-Prefix.pch";
+				INFOPLIST_FILE = "WithGit/WithGit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B449D27916EADF8800E0130A /* Build configuration list for PBXProject "WithGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B449D29B16EADF8800E0130A /* Debug */,
+				B449D29C16EADF8800E0130A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B449D29D16EADF8800E0130A /* Build configuration list for PBXNativeTarget "WithGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B449D29E16EADF8800E0130A /* Debug */,
+				B449D29F16EADF8800E0130A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B449D27616EADF8800E0130A /* Project object */;
+}
