@@ -17,6 +17,7 @@
 		B449D29A16EADF8800E0130A /* BTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B449D29816EADF8800E0130A /* BTViewController.xib */; };
 		B449D2A316EAE23A00E0130A /* SuperCool.m in Sources */ = {isa = PBXBuildFile; fileRef = B449D2A116EAE23A00E0130A /* SuperCool.m */; };
 		B449D2A416EAE23A00E0130A /* SuperCool.xib in Resources */ = {isa = PBXBuildFile; fileRef = B449D2A216EAE23A00E0130A /* SuperCool.xib */; };
+		B449D2A716EAE31E00E0130A /* NotYetready.m in Sources */ = {isa = PBXBuildFile; fileRef = B449D2A616EAE31E00E0130A /* NotYetready.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		B449D2A016EAE23A00E0130A /* SuperCool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperCool.h; sourceTree = "<group>"; };
 		B449D2A116EAE23A00E0130A /* SuperCool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperCool.m; sourceTree = "<group>"; };
 		B449D2A216EAE23A00E0130A /* SuperCool.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuperCool.xib; sourceTree = "<group>"; };
+		B449D2A516EAE31E00E0130A /* NotYetready.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotYetready.h; sourceTree = "<group>"; };
+		B449D2A616EAE31E00E0130A /* NotYetready.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotYetready.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				B449D2A016EAE23A00E0130A /* SuperCool.h */,
 				B449D2A116EAE23A00E0130A /* SuperCool.m */,
 				B449D2A216EAE23A00E0130A /* SuperCool.xib */,
+				B449D2A516EAE31E00E0130A /* NotYetready.h */,
+				B449D2A616EAE31E00E0130A /* NotYetready.m */,
 			);
 			path = WithGit;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 				B449D29416EADF8800E0130A /* BTAppDelegate.m in Sources */,
 				B449D29716EADF8800E0130A /* BTViewController.m in Sources */,
 				B449D2A316EAE23A00E0130A /* SuperCool.m in Sources */,
+				B449D2A716EAE31E00E0130A /* NotYetready.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

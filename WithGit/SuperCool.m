@@ -32,6 +32,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSLog(@"not yet ready!");
     // Do any additional setup after loading the view from its nib.
 }
 
