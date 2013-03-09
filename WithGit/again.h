@@ -10,6 +10,6 @@
 
 @interface again : NSObject
 {
-     
+    NSString *test;
 }
 @end
