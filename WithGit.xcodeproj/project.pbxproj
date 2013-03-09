@@ -22,13 +22,13 @@
 		B449D28316EADF8800E0130A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B449D28516EADF8800E0130A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B449D28716EADF8800E0130A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B449D28B16EADF8800E0130A /* WithGit-Info.plist */ = {isa = PBXFileReference; path = "WithGit-Info.plist"; sourceTree = "<group>"; };
+		B449D28B16EADF8800E0130A /* WithGit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WithGit-Info.plist"; sourceTree = "<group>"; };
 		B449D28D16EADF8800E0130A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B449D28F16EADF8800E0130A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B449D29116EADF8800E0130A /* WithGit-Prefix.pch */ = {isa = PBXFileReference; path = "WithGit-Prefix.pch"; sourceTree = "<group>"; };
-		B449D29216EADF8800E0130A /* BTAppDelegate.h */ = {isa = PBXFileReference; path = BTAppDelegate.h; sourceTree = "<group>"; };
+		B449D29116EADF8800E0130A /* WithGit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WithGit-Prefix.pch"; sourceTree = "<group>"; };
+		B449D29216EADF8800E0130A /* BTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAppDelegate.h; sourceTree = "<group>"; };
 		B449D29316EADF8800E0130A /* BTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAppDelegate.m; sourceTree = "<group>"; };
-		B449D29516EADF8800E0130A /* BTViewController.h */ = {isa = PBXFileReference; path = BTViewController.h; sourceTree = "<group>"; };
+		B449D29516EADF8800E0130A /* BTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTViewController.h; sourceTree = "<group>"; };
 		B449D29616EADF8800E0130A /* BTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTViewController.m; sourceTree = "<group>"; };
 		B449D29916EADF8800E0130A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BTViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */

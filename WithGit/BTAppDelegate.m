@@ -22,6 +22,7 @@
     self.viewController = [[BTViewController alloc] initWithNibName:@"BTViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+     NSLog(@"application did finish launching");
     return YES;
 }
 
