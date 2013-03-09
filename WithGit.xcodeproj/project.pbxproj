@@ -15,6 +15,8 @@
 		B449D29416EADF8800E0130A /* BTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B449D29316EADF8800E0130A /* BTAppDelegate.m */; };
 		B449D29716EADF8800E0130A /* BTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B449D29616EADF8800E0130A /* BTViewController.m */; };
 		B449D29A16EADF8800E0130A /* BTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B449D29816EADF8800E0130A /* BTViewController.xib */; };
+		B449D2A316EAE23A00E0130A /* SuperCool.m in Sources */ = {isa = PBXBuildFile; fileRef = B449D2A116EAE23A00E0130A /* SuperCool.m */; };
+		B449D2A416EAE23A00E0130A /* SuperCool.xib in Resources */ = {isa = PBXBuildFile; fileRef = B449D2A216EAE23A00E0130A /* SuperCool.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		B449D29516EADF8800E0130A /* BTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTViewController.h; sourceTree = "<group>"; };
 		B449D29616EADF8800E0130A /* BTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTViewController.m; sourceTree = "<group>"; };
 		B449D29916EADF8800E0130A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BTViewController.xib; sourceTree = "<group>"; };
+		B449D2A016EAE23A00E0130A /* SuperCool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperCool.h; sourceTree = "<group>"; };
+		B449D2A116EAE23A00E0130A /* SuperCool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperCool.m; sourceTree = "<group>"; };
+		B449D2A216EAE23A00E0130A /* SuperCool.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuperCool.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,9 @@
 				B449D29616EADF8800E0130A /* BTViewController.m */,
 				B449D29816EADF8800E0130A /* BTViewController.xib */,
 				B449D28A16EADF8800E0130A /* Supporting Files */,
+				B449D2A016EAE23A00E0130A /* SuperCool.h */,
+				B449D2A116EAE23A00E0130A /* SuperCool.m */,
+				B449D2A216EAE23A00E0130A /* SuperCool.xib */,
 			);
 			path = WithGit;
 			sourceTree = "<group>";
@@ -150,6 +158,7 @@
 			files = (
 				B449D28E16EADF8800E0130A /* InfoPlist.strings in Resources */,
 				B449D29A16EADF8800E0130A /* BTViewController.xib in Resources */,
+				B449D2A416EAE23A00E0130A /* SuperCool.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +172,7 @@
 				B449D29016EADF8800E0130A /* main.m in Sources */,
 				B449D29416EADF8800E0130A /* BTAppDelegate.m in Sources */,
 				B449D29716EADF8800E0130A /* BTViewController.m in Sources */,
+				B449D2A316EAE23A00E0130A /* SuperCool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
